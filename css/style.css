@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #60c5ba, #0089b3);
+}
+
+.card {
+  width: 480px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.35);
+  background: white;
+  margin: 10px;
+}
+.card .funding {
+  padding: 40px 20px;
+  background: #004e66;
+  color: white;
+}
+.card .funding p.raised {
+  margin: 0;
+  font-weight: 700;
+}
+.card .funding p.raised span {
+  font-weight: 400;
+  font-size: 12.5px;
+}
+.card .funding .funding-bar {
+  width: 100%;
+  height: 40px;
+  background: #006280;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.card .funding .funding-bar .inner-bar {
+  background: #EFDC05;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.card .funding .funding-bar .inner-bar p {
+  font-weight: 700;
+}
+.card .funding .funding-bar .inner-bar.funded {
+  background: #60c5ba;
+}
+.card .thumbnail {
+  width: 100%;
+  max-width: 100%;
+  box-shadow: 0px 1px 10px rgba(96, 197, 186, 0.75);
+  position: relative;
+}
+.card .thumbnail img {
+  width: 100%;
+}
+.card .thumbnail .play {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50px;
+  border: 2px solid white;
+  color: white;
+  transition: 0.15s ease-in-out;
+  cursor: pointer;
+}
+.card .thumbnail .play:hover {
+  color: #bde7e3;
+  border-color: #bde7e3;
+}
+.card .btn {
+  padding: 20px 40px;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  background: #60c5ba;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 0px 1px #3a9f94;
+  transition: 0.15s ease-in-out;
+}
+.card .btn:hover {
+  transform: translate(1px, 1px);
+}
+.card .info {
+  padding: 40px 20px;
+}
+.card .info .title {
+  margin: 0;
+}
+.card .info .desc {
+  position: relative;
+  width: 100%;
+  max-height: 75px;
+  overflow: hidden;
+  color: #999;
+}
+.card .info .desc:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, rgba(255, 255, 255, 0.35), white);
+}

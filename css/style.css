@@ -193,7 +193,7 @@ a {
 @media only screen and (max-width: 465px) {
   .p1 {
     position: relative;
-    top: 0.6em;
+    top: 0px;
   }
 }
 
@@ -208,7 +208,7 @@ a {
 @media only screen and (max-width: 465px) {
   .p2 {
     position: relative;
-    top: 0.6em;
+    top: 0px;
   }
 }
 
@@ -225,7 +225,7 @@ a {
     position: relative;
     margin-top: 20px;
     margin-bottom: 10px;
-    top: 0.6em;
+    top: 0px;
   }
 }
 
@@ -242,7 +242,7 @@ a {
     position: relative;
     margin-top: 20px;
     margin-bottom: 10px;
-    top: 0.6em;
+    top: 0px;
   }
 }
 

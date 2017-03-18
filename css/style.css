@@ -363,14 +363,14 @@ a {
 }
 
 .me-img {
-  background: url(../img/official_website_qr_code.png) no-repeat center center;
-  background-size: 100%;
+  /*background: url(../img/official_website_qr_code.png) no-repeat center center;*/
+  /*background-size: 100%;
   background-position: 0px;
   border-radius: 0%;
   height: 260px;
   margin: 0 auto;
   position: relative;
-  width: 260px;
+  width: 260px;*/
 }
 
 .name-hero h1 {

@@ -168,3 +168,11 @@ function strokeIn($el) {
 function getRandom(min, max) {
 		return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?dd0636c344ebd66cd0b3d9a0ad5291a6";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
